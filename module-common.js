@@ -1,7 +1,7 @@
-module.test = function() {
+module.exports.test = function() {
   console.log("hello");
 };
-module.unused = function() {
+module.exports.unused = function() {
   console.log("this should not be included");
 };
 module.exports = function() {

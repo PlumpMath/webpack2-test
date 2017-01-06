@@ -112,16 +112,15 @@ function(module, exports) {
 }, /* 1 */
 /***/
 function(module, exports, __webpack_require__) {
-    /* WEBPACK VAR INJECTION */
-    (function(module) {
-        module.test = function() {
-            console.log("hello");
-        }, module.unused = function() {
-            console.log("this should not be included");
-        }, module.exports = function() {
-            console.log("not good");
-        };
-    }).call(exports, __webpack_require__(0)(module));
+    "use strict";
+    /* harmony export (binding) */
+    __webpack_require__.d(exports, "a", function() {
+        return test;
+    });
+    /* unused harmony export unused */
+    var test = function() {
+        console.log("hello");
+    };
 }, /* 2 */
 , /* 3 */
 /***/
@@ -134,9 +133,8 @@ function(module, exports, __webpack_require__) {
         });
         /* harmony import */
         var __WEBPACK_IMPORTED_MODULE_0__module_common__ = __webpack_require__(1);
-        __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__module_common__);
         module.export = function() {
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__module_common__.test)();
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__module_common__.a)();
         };
     }).call(exports, __webpack_require__(0)(module));
 } ]);
