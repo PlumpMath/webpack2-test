@@ -1,4 +1,4 @@
-import { test } from './vendor';
+import { test } from './module';
 
 module.export = function() {
   test();

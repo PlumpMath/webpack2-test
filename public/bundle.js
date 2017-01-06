@@ -116,7 +116,7 @@ function(module, exports, __webpack_require__) {
     "use strict";
     /* unused harmony export unused */
     function test() {
-        console.log("test function");
+        console.log("hello");
     }
     /* harmony export (immutable) */
     exports.a = test;
@@ -131,9 +131,9 @@ function(module, exports, __webpack_require__) {
             value: !0
         });
         /* harmony import */
-        var __WEBPACK_IMPORTED_MODULE_0__vendor__ = __webpack_require__(2);
+        var __WEBPACK_IMPORTED_MODULE_0__module__ = __webpack_require__(2);
         module.export = function() {
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__vendor__.a)();
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__module__.a)();
         };
     }).call(exports, __webpack_require__(0)(module));
 } ]);

@@ -133,10 +133,10 @@ function(module, exports, __webpack_require__) {
             value: !0
         });
         /* harmony import */
-        var __WEBPACK_IMPORTED_MODULE_0__vendor_common__ = __webpack_require__(1);
-        __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vendor_common__);
+        var __WEBPACK_IMPORTED_MODULE_0__module_common__ = __webpack_require__(1);
+        __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__module_common__);
         module.export = function() {
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__vendor_common__.test)();
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__module_common__.test)();
         };
     }).call(exports, __webpack_require__(0)(module));
 } ]);

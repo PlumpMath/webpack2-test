@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf public/* && webpack --verbose --config webpack.config.js"
+    "build": "rm -rf public/* && webpack --verbose --config ./webpack.config.js"
   },
   "author": "Joe Hsu <jhsu.x1@gmail.com> (http://twitter.com/jhsu)",
   "license": "ISC",
